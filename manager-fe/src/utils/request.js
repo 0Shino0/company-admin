@@ -51,6 +51,11 @@ function request(options) {
         options.params = options.data;
     }
 
+    // 局部覆盖全局
+    if(typeof options.mock != 'undefined'){
+        config.mock = options.mock;
+    }
+
     if(config.env === 'prod') {
         service.defaults.baseURL = config.baseApi;
         console.log(config.baseApi);

@@ -9,15 +9,11 @@
 
   export default {
     name:'app',
-    mounted(){
-      // this.$storage.setItem('userInfo',{age:30,name:'yy'})
-      // console.log('user=>',this.$storage.getItem("userInfo"));
-      // this.$storage.clearItem("useri")
-      // this.$storage.clearAll();
-    }
   }
 </script>
 
-<style>
+<style lang="scss">
+  @import './assets/style/reset.css';
+  @import './assets/style/index.scss';
 
 </style>
