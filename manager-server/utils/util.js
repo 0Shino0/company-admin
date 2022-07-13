@@ -2,7 +2,7 @@
  * 通用工具函数
  */
 const log4js = require('./log4j')
-const COOD = {
+const CODE = {
     SUCCESS: 200,
     PARAM_ERROR: 10001, // 参数错误
     USER_ACCOUNT_ERROR: 20001, // 账号或密码错误
@@ -11,7 +11,8 @@ const COOD = {
     AUTH_ERROR: 500001 // 认证失败或TOKEM过期
 }
 
-module.export = {
+// exports
+module.exports = {
 
     /**
      * 分页结构封装
@@ -38,10 +39,11 @@ module.export = {
             code,data,msg
         }
     },
-    fail(msg='',code=CODE.BUSINESS_ERROR){
-        log4js.debug(msg)
+    fail(msg='',code=CODE.BUSINESS_ERROR,data=''){
+        log4js.debug(msg);
         return {
             code,data,msg
         }
     },
+    CODE
 }

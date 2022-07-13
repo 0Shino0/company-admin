@@ -21,5 +21,5 @@ app.config.globalProperties.$storage = storage;
 app
 .use(router)
 .use(store)
-.use(ElementPlus)
+.use(ElementPlus,{size:'small'})
 .mount('#app');

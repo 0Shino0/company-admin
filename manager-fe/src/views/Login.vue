@@ -53,7 +53,7 @@
                this.$router.push('./welcome')
              })
            }else{
-
+             return false;
            }
          })
        },

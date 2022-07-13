@@ -1,48 +1,67 @@
-const app = require('koa')()
-  , logger = require('koa-logger')
-  , json = require('koa-json')
-  , views = require('koa-views')
-  , onerror = require('koa-onerror');
-
-  // 路由
-const index = require('./routes/index');
-const users = require('./routes/users');
-  // log4js
-const log4js = require('./utils/log4j');
+const Koa = require('koa')
+const app = new Koa()
+const views = require('koa-views')
+const json = require('koa-json')
+const onerror = require('koa-onerror')
+const bodyparser = require('koa-bodyparser')
+const logger = require('koa-logger')
+const log4js = require('./utils/log4j')
+const router = require('koa-router')()
+const jwt = require('jsonwebtoken')
+const koajwt = require('koa-jwt')
+const util = require('./utils/util')
+const users = require('./routes/users')
+// const menus = require('./routes/menus')
 
 // error handler
-onerror(app);
+onerror(app)
 
-// global middlewares
-app.use(views('views', {
-  root: __dirname + '/views',
-  default: 'jade'
-}));
+require('./config/db')
 
-app.use(require('koa-bodyparser')());
-app.use(json());
-app.use(logger());
+// middlewares
+app.use(bodyparser({
+  enableTypes: ['json', 'form', 'text']
+}))
+app.use(json())
+app.use(logger())
+app.use(require('koa-static')(__dirname + '/public'))
 
-app.use(function *(next){
-  var start = new Date;
-  yield next;
-  var ms = new Date - start;
-  log4js.info('log output');
-  // log4js.error('log output');
-  console.log('%s %s - %s', this.method, this.url, ms);
-});
+app.use(views(__dirname + '/views', {
+  extension: 'pug'
+}))
 
-app.use(require('koa-static')(__dirname + '/public'));
+// logger
+app.use(async (ctx, next) => {
+  // 打印信息 params参数x
+  log4js.info(`get params:${JSON.stringify(ctx.request.query)}`)
+  log4js.info(`post params:${JSON.stringify(ctx.request.body)}`)
+  await next().catch((err) => {
+    if (err.status == '401') {
+      ctx.status = 200;
+      ctx.body = util.fail('Token认证失败', util.CODE.AUTH_ERROR)
+    } else {
+      throw err;
+    }
+  })
+})
 
-// routes definition
-app.use(index.routes(), index.allowedMethods());
-app.use(users.routes(), users.allowedMethods());
+// 校验token
+app.use(koajwt({ secret: 'imooc' }).unless({
+  // 排除 login接口  
+  // 转义字符 \
+  path: [/^\/api\/users\/login/]
+}))
+
+router.prefix("/api")
+
+router.use(users.routes(), users.allowedMethods())
+// router.use(menus.routes(), menus.allowedMethods())
+
+app.use(router.routes(), router.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
-  console.error(1);
-  console.error('server error', err, ctx);
   log4js.error(`${err.stack}`)
 });
 
-module.exports = app;
+module.exports = app
