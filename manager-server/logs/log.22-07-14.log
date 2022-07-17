@@ -1,0 +1,57 @@
+[2022-07-14T11:14:28.946] [ERROR] error - ***数据库连接失败***
+[2022-07-14T15:38:34.604] [ERROR] error - TypeError: Cannot read property 'slice' of null
+    at getTreeMenu (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:26:34)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:17:28
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-14T15:38:36.986] [ERROR] error - TypeError: Cannot read property 'slice' of null
+    at getTreeMenu (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:26:34)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:17:28
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-14T15:38:43.997] [ERROR] error - TypeError: Cannot read property 'slice' of null
+    at getTreeMenu (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:26:34)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:17:28
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-14T15:40:01.269] [ERROR] error - TypeError: Cannot read property 'slice' of null
+    at getTreeMenu (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:26:34)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:17:28
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-14T15:40:38.117] [ERROR] error - TypeError: Cannot read property 'slice' of null
+    at getTreeMenu (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:26:34)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:17:28
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-14T15:41:28.380] [ERROR] error - TypeError: Cannot read property 'slice' of null
+    at getTreeMenu (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:26:34)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:17:28
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-14T15:41:35.208] [ERROR] error - TypeError: Cannot read property 'slice' of null
+    at getTreeMenu (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:26:34)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:17:28
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)

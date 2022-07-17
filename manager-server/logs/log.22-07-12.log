@@ -1,0 +1,73 @@
+[2022-07-12T12:39:21.912] [ERROR] error - ReferenceError: ctx is not defined
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:84:23
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at jwt (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-jwt\lib\index.js:73:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-12T15:48:02.932] [ERROR] error - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:97:19
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at jwt (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-jwt\lib\index.js:73:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-12T17:27:56.478] [ERROR] error - ReferenceError: res is not defined
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:108:5
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-12T17:29:21.209] [ERROR] error - ReferenceError: doc is not defined
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:105:26
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at jwt (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-jwt\lib\index.js:73:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-12T23:37:22.941] [ERROR] error - TypeError: Menu.find is not a function
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\menus.js:13:31
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at jwt (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-jwt\lib\index.js:73:16)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:38:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)

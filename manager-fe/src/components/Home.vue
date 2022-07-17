@@ -70,13 +70,13 @@ export default {
       isCollapse: false,
       userInfo: this.$store.state.userInfo,
       noticeCount: 0,
-      // userMenu: [],
+      userMenu: [],
       activeMenu: location.hash.slice(1),
     };
   },
   mounted() {
     this.getNoticeCount();
-    // this.getMenuList();
+    this.getMenuList();
   },
   methods: {
     toggle() {
@@ -96,14 +96,14 @@ export default {
         console.error(error);
       }
     },
-    // async getMenuList() {
-    //   try {
-    //     const list = await this.$api.getMenuList();
-    //     this.userMenu = list;
-    //   } catch (error) {
-    //     console.error(error);
-    //   }
-    // },
+    async getMenuList() {
+      try {
+        const list = await this.$api.getMenuList();
+        this.userMenu = list;
+      } catch (error) {
+        console.error(error);
+      }
+    },
   },
 };
 </script>

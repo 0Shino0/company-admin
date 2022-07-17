@@ -1,0 +1,33 @@
+[2022-07-13T14:19:08.482] [ERROR] error - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Function.Model.$wrapCallback (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\model.js:5087:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4510:21
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-13T14:19:12.261] [ERROR] error - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Function.Model.$wrapCallback (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\model.js:5087:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4510:21
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-13T14:19:47.547] [ERROR] error - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Function.Model.$wrapCallback (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\model.js:5087:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4510:21
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-13T14:20:19.292] [ERROR] error - MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at Function.Model.$wrapCallback (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\model.js:5087:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4510:21
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-13T16:50:19.742] [ERROR] error - ***数据库连接失败***

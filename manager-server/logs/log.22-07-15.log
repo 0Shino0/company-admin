@@ -1,0 +1,68 @@
+[2022-07-15T22:32:34.144] [ERROR] error - ***数据库连接失败***
+[2022-07-15T22:57:31.400] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\lib\response.js:215:35)
+    at logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:77:33)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-15T22:57:36.621] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\lib\response.js:215:35)
+    at logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:77:33)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-15T23:00:26.974] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\lib\response.js:215:35)
+    at logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:77:33)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-15T23:55:00.557] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\lib\response.js:215:35)
+    at logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:77:33)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-15T23:55:06.330] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\lib\response.js:215:35)
+    at logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:77:33)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-15T23:55:06.381] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\lib\response.js:215:35)
+    at logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:77:33)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-15T23:58:40.337] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\lib\response.js:215:35)
+    at logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:77:33)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
