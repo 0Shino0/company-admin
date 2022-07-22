@@ -1,5 +1,4 @@
-async function demo() {
-    await console.log(demo);
-};
-
-await demo();
+(async function () {
+    // let books = await getAllBooks();
+    console.log(1);
+})();

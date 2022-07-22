@@ -51,28 +51,30 @@ const router = createRouter({
     routes
 });
 
-// const loadAsyncRoutes = async () => {
-async function loadAsyncRoutes() {
-    console.log(loadAsyncRoutes());
+(async function loadAsyncRoutes() {
+    // console.log(loadAsyncRoutes());
     let userInfo = storage.getItem("userInfo") || {};
     if (userInfo.token) {
         try {
             const { menuList } = await API.getPermissionList();
             let routes = utils.generateRoute(menuList);
-            console.log(routes);
             routes.map((route) => {
                 let url = `./../views/${route.component}.vue`;
                 route.component = () => import(url);
                 router.addRoute("home", route);
             })
-        } catch (error) { }
+        } catch (error) {
+        }
     }
-};
+})()
 
-loadAsyncRoutes()
+// (async () => {
+//     await loadAsyncRoutes()
+// })();
+
 // 判断当前地址是否可以访问
-/* 
-function checkPermission(path) {
+
+/* function checkPermission(path) {
     // router.getRoutes() 获取所有路由信息
     let hasPermission = router.getRoutes().filter(route => route.path == path).length;
     if (hasPermission) {
@@ -80,12 +82,12 @@ function checkPermission(path) {
     } else {
         return false;
     }
-}
-*/
+} */
+
 
 // 导航守卫
 router.beforeEach((to, from, next) => {
-    console.log(router.hasRoute(to.name));
+    // console.log(router.hasRoute(to.name));
     if (router.hasRoute(to.name)) {
         document.title = to.meta.title;
         next()
