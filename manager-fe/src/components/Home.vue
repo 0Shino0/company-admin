@@ -33,6 +33,7 @@
             :is-dot="noticeCount > 0 ? true : false"
             class="notice"
             type="danger"
+            @click="$router.push('/audit/approve')"
           >
             <i class="el-icon-bell"></i>
           </el-badge>
@@ -74,6 +75,11 @@ export default {
       activeMenu: location.hash.slice(1),
     };
   },
+  computed: {
+    noticeCount(){
+      return this.$store.state.noticeCount;
+    },
+  },
   mounted() {
     this.getNoticeCount();
     this.getMenuList();
@@ -85,21 +91,23 @@ export default {
     handleLogout(key) {
       if (key == "email") return;
       this.$store.commit("saveUserInfo", "");
-      this.userInfo = null;
+      this.userInfo = {};
       this.$router.push("/login");
     },
     async getNoticeCount() {
       try {
         const count = await this.$api.noticeCount();
-        this.noticeCount = count;
+        this.$store.commit("saveNotiveCount", count);
       } catch (error) {
         console.error(error);
       }
     },
     async getMenuList() {
       try {
-        const list = await this.$api.getMenuList();
-        this.userMenu = list;
+        const { menuList, actionList } = await this.$api.getPermissionList();
+        this.userMenu = menuList;
+        this.$store.commit("sevaUserMenu", menuList);
+        this.$store.commit("saveUserAction", actionList);
       } catch (error) {
         console.error(error);
       }
@@ -172,6 +180,7 @@ export default {
         .notice {
           line-height: 30px;
           margin-right: 15px;
+          cursor: pointer;
         }
         .user-link {
           cursor: pointer;

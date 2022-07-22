@@ -3,7 +3,9 @@
  */
 const router = require('koa-router')();
 const User = require('./../models/userSchema');
+const Menu = require('./../models/menuSchema');
 const Counter = require('./../models/counterSchema')
+const Role = require('./../models/roleSchema')
 const util = require('./../utils/util');
 const jwt = require('jsonwebtoken');
 const md5 = require('md5');
@@ -147,5 +149,74 @@ router.post('/operate', async (ctx) => {
   }
 
 })
+
+// 获取全量所有用户
+router.get('/all/list', async (ctx) => {
+  try {
+    const list = await User.find({}, "userId userName userEmail")
+    ctx.body = util.success(list)
+  } catch (error) {
+    ctx.body = util.fail(error.stack)
+  }
+})
+
+// 获取用户对应的权限菜单
+router.get('/getPermissionList', async (ctx) => {
+  let authorization = ctx.request.headers.authorization
+  let { data } = util.decoded(authorization)
+  let menuList = await getMenuList(data.role, data.roleList)
+  // 深拷贝 menuList  JSON.parse(JSON.stringify(menuList))
+  let actionList = getActionList(JSON.parse(JSON.stringify(menuList)))
+  ctx.body = util.success({ menuList, actionList })
+})
+
+async function getMenuList(userRole, roleKeys) {
+  let rootList = [];
+  // 如果是管理员
+  if (userRole == 0) {
+    rootList = await Menu.find({}) || []
+    console.log(rootList);
+  }
+  else {
+    // 只要满足$in [] 里面的元素 都可以查询出来
+
+    // 根据用户拥有的权限，获取权限列表
+    // 现查找用户对应的角色有哪些
+    let roleList = await Role.find({ _id: { $in: roleKeys } })
+    let permissionList = []
+    roleList.map(role => {
+      let { checkedKeys, halfCheckedKeys } = role.permissionList
+      permissionList = permissionList.concat([...checkedKeys, ...halfCheckedKeys])
+    })
+    // Set 对象允许你存储任何类型的唯一值，无论是原始值或者是对象引用。
+    // 去重
+    permissionList = [...new Set(permissionList)]
+    // 从菜单表中查找获取 对应_id 的值
+    rootList = await Menu.find({ _id: { $in: permissionList } })
+    console.log(rootList);
+  }
+  return util.getTreeMenu(rootList, null, []);
+}
+
+function getActionList(list) {
+  const actionList = []
+  // deep算法
+  const deep = (arr) => {
+    while (arr.length) {
+      // pop() 方法从数组中删除最后一个元素，并返回该元素的值。此方法会更改数组的长度。
+      let item = arr.pop();
+      if (item.action) {
+        item.action.map(action => {
+          actionList.push(action.menuCode)
+        })
+      }
+      if (item.children && !item.action) {
+        deep(item.children);
+      }
+    }
+  };
+  deep(list)
+  return actionList;
+}
 
 module.exports = router;

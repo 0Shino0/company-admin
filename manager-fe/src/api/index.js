@@ -10,12 +10,21 @@ export default {
             data: params
         })
     },
-    noticeCount(params) {
+    noticeCount() {
         return request({
             url: '/leave/count',
             method: 'get',
             data: {},
-            mock: true
+            mock: false
+        })
+    },
+    // 获取用户权限数据
+    getPermissionList() {
+        return request({
+            url: '/users/getPermissionList',
+            method: 'get',
+            data: {},
+            mock: false
         })
     },
     /**
@@ -33,7 +42,7 @@ export default {
             url: '/users/all/list',
             method: 'get',
             data: {},
-            mock: true
+            mock: false
         })
     },
     /**
@@ -46,12 +55,12 @@ export default {
             data: params
         })
     },
-    getDeptList() {
+    getDeptList(params) {
         return request({
             url: '/dept/list',
             method: 'get',
-            data: {},
-            mock: true
+            data: params,
+            mock: false
         })
     },
     deptOperate(params) {
@@ -59,7 +68,7 @@ export default {
             url: '/dept/operate',
             method: 'post',
             data: params,
-            mock: true
+            mock: false
         })
     },
     userSubmit(params) {
@@ -120,4 +129,29 @@ export default {
             mock: false
         })
     },
+    // 休假管理
+    getLeaveList(params) {
+        return request({
+            url: '/leave/list',
+            method: 'get',
+            data: params,
+            mock: false
+        })
+    },
+    leaveOperate(params) {
+        return request({
+            url: '/leave/operate',
+            method: 'post',
+            data: params,
+            mock: false
+        })
+    },
+    leaveApprove(params) {
+        return request({
+            url: '/leave/approve',
+            method: 'post',
+            data: params,
+            mock: false
+        })
+    }
 }

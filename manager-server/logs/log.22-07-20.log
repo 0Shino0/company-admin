@@ -1,0 +1,83 @@
+[2022-07-20T23:18:08.791] [ERROR] error - TypeError: Cannot read property 'pop' of undefined
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:60:24
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+[2022-07-20T23:26:25.536] [ERROR] error - TypeError: Cannot read property 'userName' of null
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:68:27
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-20T23:26:27.841] [ERROR] error - TypeError: Cannot read property 'userName' of null
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:68:27
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-20T23:29:34.056] [ERROR] error - TypeError: Cannot read property 'userName' of null
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:68:27
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-20T23:30:02.987] [ERROR] error - TypeError: Cannot read property 'userName' of null
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:68:27
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-20T23:34:32.680] [ERROR] error - TypeError: Cannot read property 'userName' of null
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:69:27
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-20T23:36:56.481] [ERROR] error - TypeError: Cannot read property 'userName' of null
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:69:27
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-20T23:44:14.253] [ERROR] error - TypeError: Cannot read property 'userName' of null
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:69:27
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-20T23:46:10.019] [ERROR] error - TypeError: Cannot read property 'userName' of null
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\leaves.js:69:27
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-20T23:47:10.850] [ERROR] error - CastError: Cast to ObjectId failed for value "{ id: '60167345c6a4417f2d27506f' }" (type Object) at path "_id" for model "dept"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)

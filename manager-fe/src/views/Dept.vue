@@ -2,12 +2,15 @@
   <div class="dept-manage">
     <div class="query-form">
       <el-form ref="queryFrom" :inline="true" :model="queryFrom">
-        <el-form-item>
-          <el-input v-model="deptName" placeholder="请输入部门名称"></el-input>
+        <el-form-item label="部门名称" prop="deptName">
+          <el-input
+            v-model="queryFrom.deptName"
+            placeholder="请输入部门名称"
+          ></el-input>
         </el-form-item>
         <el-form-item>
           <el-button @click="getDeptList" type="primary">查询</el-button>
-          <el-button @click="handleReset('queryForm')">重置</el-button>
+          <el-button @click="handleReset('queryFrom')">重置</el-button>
         </el-form-item>
       </el-form>
     </div>
@@ -135,7 +138,9 @@ export default {
       },
       action: "",
       showModal: false,
-      deptForm: {},
+      deptForm: {
+        parentId: [null],
+      },
       userList: [],
       rules: {
         parentId: [
@@ -168,10 +173,8 @@ export default {
   },
   methods: {
     async getDeptList() {
-      let list = await this.$api.getDeptList({
-        ...this.queryForm,
-        ...this.pager,
-      });
+      console.log(this.queryFrom);
+      let list = await this.$api.getDeptList(this.queryFrom);
       this.deptList = list;
     },
     async getAllUserList() {
@@ -185,6 +188,7 @@ export default {
       //   自有（Object.hasOwnProperty() 返回 true）属性从一个或多个源对象复制到目标对象，返回修改后的对象。
       Object.assign(this.deptForm, { userId, userName, userEmail });
     },
+    // 表单重置
     handleReset(form) {
       this.$refs[form].resetFields();
     },
@@ -216,12 +220,10 @@ export default {
         if (valid) {
           let params = { ...this.deptForm, action: this.action };
           delete params.user;
-          let res = await this.$api.deptOperate(params);
-          if (res) {
-            this.$message.success("操作成功");
-            this.handleClose();
-            this.getDeptList();
-          }
+          await this.$api.deptOperate(params);
+          this.$message.success("操作成功");
+          this.handleClose();
+          this.getDeptList();
         }
       });
     },

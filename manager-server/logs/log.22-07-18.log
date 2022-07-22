@@ -1,0 +1,150 @@
+[2022-07-18T13:23:53.615] [ERROR] error - ReferenceError: _id is not defined
+    at getTreeDept (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\depts.js:29:29)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\depts.js:16:25
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-18T13:24:13.125] [ERROR] error - ReferenceError: _id is not defined
+    at getTreeDept (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\depts.js:29:29)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\depts.js:16:25
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-18T13:24:14.566] [ERROR] error - ReferenceError: _id is not defined
+    at getTreeDept (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\depts.js:29:29)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\depts.js:16:25
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-18T13:24:26.865] [ERROR] error - ReferenceError: _id is not defined
+    at getTreeDept (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\depts.js:29:29)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\depts.js:16:25
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-18T14:20:50.026] [ERROR] error - ReferenceError: userInfo is not defined
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:167:27
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at jwt (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-jwt\lib\index.js:73:16)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-18T14:27:15.674] [ERROR] error - ReferenceError: userInfo is not defined
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:168:27
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at jwt (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-jwt\lib\index.js:73:16)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-18T14:59:49.926] [ERROR] error - ReferenceError: Role is not defined
+    at getMenuList (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:180:20)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:166:24
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at jwt (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-jwt\lib\index.js:73:16)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-18T15:01:09.980] [ERROR] error - ReferenceError: Role is not defined
+    at getMenuList (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:180:20)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:166:24
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:45:18)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:44:32)
+    at F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at jwt (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-jwt\lib\index.js:73:16)
+    at async F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\app.js:40:3
+    at async serve (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-07-18T15:01:44.433] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:04:21.230] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:04:26.610] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:07:29.852] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:09:56.847] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:10:41.784] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:11:49.810] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:13:04.185] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:13:14.407] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:13:52.308] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:15:50.979] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:16:08.593] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:17:03.401] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:17:58.634] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:18:10.614] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:20:58.256] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:21:37.775] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:22:07.418] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:22:21.106] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
+[2022-07-18T15:22:42.318] [ERROR] error - CastError: Cast to ObjectId failed for value "60180b5ebleaed6c45fbebdd" (type string) at path "_id" for model "role"
+    at model.Query.exec (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\Program\NodeJS\koa\Vue3-ElementPlus-Koa2\manager-server\node_modules\mongoose\lib\query.js:4592:15)
